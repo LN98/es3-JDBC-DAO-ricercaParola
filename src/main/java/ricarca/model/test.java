@@ -1,12 +1,11 @@
 package ricarca.model;
 
-import ricerca.db.ParolaDAO;
-
 public class test {
 
 	public static void main(String[] args) {
+		Gestione ges = new Gestione();
 		
-		System.out.println(ParolaDAO.nParole("a"));
+		System.out.println(ges.nParolaList("a"));
 
 	}
 
